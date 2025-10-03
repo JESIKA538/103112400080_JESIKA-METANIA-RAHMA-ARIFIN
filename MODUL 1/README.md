@@ -117,18 +117,6 @@ tipe data yang berbeda. Variabel-variabel yang membentuk sebuah struktur
 dinamakan elemen struktur. Struktur sama seperti Record di dalam Bahasa
 Pemrograman Pascal (Kadir, 2001). [3]
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
 ## Guided 
 
 ### 1. Program ini adalah program yang dibuat untuk mentukan perbandingan nilai angka, dari angka yang satu dengan yang lain menggunakan teori percabangan dalam c++
@@ -293,7 +281,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(JESIKA538)/(103112400080_Laprak-Modul1_JESIKA-METANIA-R.A)/blob/main/(ALPRO SEMESTER 3/MODUL 1 )/(Output-Unguided1-Laprak-Modul1).png)
+![Screenshot Output Unguided 1_1](https://github.com/JESIKA538/103112400080_Laprak-Modul1_JESIKA-METANIA-R.A/blob/main/ALPRO SEMESTER 3/103112400080_Lapra/(Output-Unguided1-Laprak-Modul1).png)
 
 penjelasan unguided 1 
 Program sederhana dalam bahasa C++ ini meminta pengguna untuk memasukkan dua angka kemudian menghitung dan menampilkan hasil operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Jika angka pertama tidak bernilai nol, maka akan ditampilkan pesan bahwa pembagian tidak dapat dilakukan.
