@@ -1,0 +1,394 @@
+# 103112400080_Laprak-Modul1_JESIKA-METANIA-R.A
+Laporan praktikum Struktur Data JESIKA METANIA R.A, Kelas 12-if-01
+
+
+## Dasar Teori
+Pernyataan percabangan pada pemrograman digunakan untuk memecahkan
+persoalan untuk mengambil suatu keputusan diantara sekian pernyataan yang
+ada, dimana sebuah instruksi (pernyataan) akan dilaksanakan jika sebuah
+kondisi/persyaratan terpenuhi.
+1. Pernyataan If
+Pernyataan if mempunyai pengertian” jika kondisi bernilai benar, maka
+pernyataan akan dikerjakan dan jika tidak memenuhi syarat maka
+program akan mengabaikan pernyataan ”[1]
+2. Pernyataan If – Else
+Pernyataan if mempunyai pengertian, “ jika kondisi bernilai benar, maka
+pernyataan-1 yang akan dieksekusi dan jika tidak memenuhi syarat
+maka akan dieksekusi pernyataan-2”[1]
+3. If – Else Bertingkat
+Bentuk If-Else dapat digunakan secara bertingkat. Ada beberapa bentuk
+If-Else bertingkat, antara lain nested if dan if – else if.
+i. Nested If
+Nested if merupakan bentuk pernyataan if yang ada di dalam
+pernyataan if yang lain. Disebut juga if bersarang. Eksekusinya
+memperhatikan pernyataan if yang mewadahi pernyataan if
+yang ada.
+Bentuk umum dari pernyataan ini adalah:
+if (kondisi1)
+if (kondisi2)
+Pernyataan;
+else //untuk kondisi1
+Pernyataan;
+else //untuk kondisi2
+Pernyataan;
+ii. If – Else If
+Bentuk ini merupakan penggunaan bentuk if else secara
+majemuk. Pernyataan if pada else if akan dieksekusi jika hasil
+pernyataan if sebelumnya bernilai false.
+Bentuk umum dari pernyataan ini adalah:
+if (kondisi1) {
+Pernyataan...;
+...;
+}
+else if (kondisi2) {
+Pernyataan...;
+...;
+}
+else {
+Pernyataan...;
+...;
+}
+[1]
+Pernyataan Switch – Case
+Bentuk switch – case merupakan pernyataan yang dirancang khusus
+untuk menanggani pengambilan keputusan yang melibatkan sejumlah
+atau banyak alternatif. Pernyataan switch – case ini memiliki kegunaan
+yang sama seperti if – else bertingkat, tetapi dengan kondisi yang bertipe
+karakter atau integer.
+Bentuk umum dari pernyataan ini adalah sbb.
+switch (ekspresi) {
+case konstanta1:
+pernyataan1;
+break;
+case konstanta2:
+pernyataan2;
+break;
+case konstanta3:
+pernyataan3;
+break;
+...
+case konstanta-n:
+pernyataan-n;
+break;
+default:
+pernyataan-umum;
+}
+Setiap cabang akan dijalankan jika syarat nilai konstanta terpenuhi dan
+default akan dijalankan jika semua cabang diatasnya tidak terpenuhi.
+Pernyataan break menunjukkan setelah eksekusi pernyataan, maka
+program akan keluar dari switch. jika pernyataan ini tidak ada, maka
+program akan diteruskan ke cabang-cabang yang lainnya.[1]
+1. Definsi Perulangan
+Dalam bahasa C++ tersedia suatu fasilitas yang digunakan untuk melakukan
+proses yang berulang-ulang sebanyak keinginan kita. Misalnya saja, bila kita ingin
+menginput dan mencetak bilangan dari 1 sampai 100 bahkan 1000, tentunya kita akan
+merasa kesulitan. Namun dengan struktur perulangan proses, kita tidak perlu
+menuliskan perintah sampai 100 atau 1000 kali, cukup dengan beberapa perintah
+saja.
+Struktur perulangan dalam bahasa C mempunyai bentuk yang bermacammacam. Sebuah/kelompok instruksi diulang untuk jumlah pengulangan tertentu. Baik
+yang terdifinisikan sebelumnya ataupun tidak. Struktur pengulangan terdiri atas dua
+bagian :
+(1). Kondisi pengulangan yaitu ekspresi boolean yang harus dipenuhi untuk
+melaksanakan pengulangan;
+(2). Isi atau badan pengulangan yaitu satu atau lebih pernyataan (aksi) yang akan
+diulang.
+1. Statement For
+Struktur perulangan for biasa digunakan untuk mengulang suatu proses yang telah
+diketahui jumlah perulangannya. Dari segi penulisannya, struktur perulangan for
+tampaknya lebih efisien karena susunannya lebih simpel dan sederhana.
+Pernyataan for digunakan untuk melakukan looping. Pada umumnya looping yang
+dilakukan oleh for telah diketahui batas awal, syarat looping dan perubahannya.
+Selama kondisi terpenuhi, maka pernyataan akan terus dieksekusi. [2]
+2. Statement While
+Perulangan WHILE banyak digunakan pada program yang terstruktur. Perulangan
+ini banyak digunakan bila jumlah perulangannya belum diketahui. Proses perulangan
+akan terus berlanjut selama kondisinya bernilai benar (≠0) dan akan berhenti bila
+kondisinya bernilai salah (=0). [2]
+3. Statement Do-While
+Perbedaan dengan WHILE sebelumnya yaitu bahwa pada DO WHILE statement
+perulangannya dilakukan terlebih dahulu baru kemudian di cek kondisinya.
+Sedangkan WHILE kondisi dicek dulu baru kemudia statement perulangannya
+dijalankan. Akibat dari hal ini adalah dalam DO WHILE minimal terdapat 1x
+perulangan. Sedangkan WHILE dimungkinkan perulangan tidak pernah terjadi yaitu
+ketika kondisinya langsung bernilai FALSE.[2]
+Structure
+Struktur digunakan untuk mengelompokan sejumlah data yang mempunyai
+tipe data yang berbeda. Variabel-variabel yang membentuk sebuah struktur
+dinamakan elemen struktur. Struktur sama seperti Record di dalam Bahasa
+Pemrograman Pascal (Kadir, 2001). [3]
+
+## Guided 
+
+### 1. Program ini adalah program yang dibuat untuk mentukan perbandingan nilai angka, dari angka yang satu dengan yang lain menggunakan teori percabangan dalam c++
+source code guided 1
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka1, angka2;
+    cout << "masukkan angka 1 : ";
+    cin >> angka1;
+    cout << "masukkan angka 2 : ";
+    cin >> angka2;
+
+    if (angka1 < angka2) {
+        cout << angka1 << " kurang dari " << angka2 << endl;
+    } else {
+        cout << angka1 << " lebih dari " << angka2 << endl;
+    }
+
+
+    if (angka1 == angka2) {
+        cout << angka1 << " sama dengan " << angka2 << endl;
+    } else if (angka1 != angka2){
+        cout << " angka berbeda" << endl;
+    }
+
+    return 0;
+}
+penjelasan singkat guided 1
+Program ini adalah program C++ sederhana yang digunakan untuk membandingkan dua bilangan bulat yang dimasukkan. Ini meminta pengguna untuk memasukkan dua angka, memeriksa apakah angka pertama lebih kecil atau lebih besar daripada angka kedua, dan kemudian memeriksa apakah kedua angka tersebut sama atau berbeda. Setelah itu, program menampilkan hasil perbandingan dalam bentuk kalimat di layar.
+
+### 2. Program ini  adalah programyang di buat dengan menambahkan menu guna pengguna bisa memilih akan melakukan operasi apa dalam suatu sistem
+
+source code guided 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int pilihan, angka1, angka2;
+    cout << "masukkan angka 1 : ";
+    cin >> angka1;
+    cout << "masukkan angka 2 : ";
+    cin >> angka2;
+    
+    cout << "MENU" << endl;
+    cout << "1.penjumlahan" << endl;
+    cout << "2.pengurangan" << endl;
+    cout << "masukkan pilihan : ";
+    cin >> pilihan;
+
+    switch (pilihan) {
+        case 1:
+            cout << "penjumlahan : " << angka1 + angka2 << endl;
+            cout << endl;
+        break;
+        case 2:
+            cout << "pengurangan : " << angka1 - angka2 << endl;
+            cout << endl;
+        break;
+        default:
+            cout << "pilihan salah" << endl;
+    }
+    return 0;
+}
+penjelasan singkat guided 2
+Program di atas adalah program C++ sederhana yang dapat mengoperasikan dua bilangan bulat sesuai keinginan pengguna. Ini meminta pengguna memasukkan dua angka dan menampilkan menu dengan pilihan operasi aritmatika seperti penjumlahan dan pengurangan. Setelah memilih salah satu operasi, program akan menjalankan operasi yang sesuai dan menampilkan hasilnya. Namun, jika pengguna memasukkan pilihan yang tidak tersedia, program akan menampilkan pesan bahwa pilihan tersebut tidak tersedia.
+
+### 3. Program ini adalah program yang dibuat untuk membantu pengguna dalam menghitung bilangan increment dan decrement
+source code guided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka1;
+    cout << "masukkan angka 1 : ";
+    cin >> angka1;
+
+    for(int i = 0; i < angka1; i++) { //increment
+        cout << i << " - ";
+    }
+    cout << endl;
+
+    int j = 20;
+    while ( j > angka1) {
+        cout << j << " - ";
+        j--; //decrement
+    }
+
+    cout << endl;
+    int k = 10;
+    do {
+        cout << k << " - ";
+    } while (k < angka1);
+
+    return 0;
+}
+penjelasan singkat guided 3
+Program ini adalah program C++ yang menunjukkan penggunaan tiga jenis perulangan: for untuk mencetak angka dari 0 hingga lebih besar dari input pengguna, while untuk mencetak angka dari 20 hingga lebih besar dari input pengguna, dan do-while untuk mencetak angka 10 setidaknya sekali meskipun kondisi perulangan tidak terpenuhi.
+
+### 4. Program ini adalah program yang dibuat untuk membantu pengguna dalam menghitung perbandingan dari 2 siswa.
+source code guided 4
+#include <iostream>
+using namespace std;
+
+int main() {
+    const int MAX = 3;
+    struct rapot {
+        char nama[3];
+        float nilai;
+    };
+    rapot siswa[MAX];
+
+    for(int i=0; i<MAX; i++) {
+        cout << "masukkan nama siswa : ";
+        cin >> siswa[i].nama;
+        cout << "masukkan nilai siswa : ";
+        cin >> siswa[i].nilai;
+        cout << endl;
+    }
+
+    int j = 0;
+    while (j < MAX){
+        cout << "Nama siswa : " << siswa[j].nama << ", Nilai " << siswa[j].nilai << endl;
+        j++;
+    }
+    return 0;
+}
+penjelasan singkat guided 4
+Program C++ di atas menggunakan struct dan array untuk menyimpan dan menampilkan data rapor siswa. Ini menciptakan struct bernama rapot dengan dua atribut: nama untuk menyimpan nama siswa dan nilai untuk menyimpan nilai mereka. Selanjutnya, program membuat array siswa berukuran tiga elemen sesuai konstanta MAX, sehingga hanya dapat menyimpan data tiga siswa. Program meminta pengguna untuk memasukkan nama dan nilai setiap siswa dan menyimpannya ke dalam array struct dengan perulangan for. Setelah semua data dimasukkan, program menggunakan perulangan while untuk menampilkan kembali data setiap siswa, dengan nama dan nilai yang telah dimasukkan sebelumnya. Oleh karena itu, program ini menunjukkan proses mendefinisikan struct, mengisi data ke dalam array struct, dan menampilkannya menggunakan perulangan.
+
+
+## Unguided 
+
+### 1. Buatlah program yang menerima input-an dua buah bilangan bertipe float, kemudian memberikan output-an hasil penjumlahan,pengurangan,perkalian,dan pembagian dari dua bilangan tersebut.
+
+source code unguided 1
+#include <iostream>
+using namespace std;
+
+int main() {
+    float angka1, angka2;
+
+    std::cout << "Masukkan angka pertama: ";
+    std::cin >> angka1;
+
+    std::cout << "Masukkan angka kedua: ";
+    std::cin >> angka2;
+
+    std::cout << "Hasil Penjumlahan: " << angka1 + angka2 << std::endl;
+    std::cout << "Hasil Pengurangan: " << angka1 - angka2 << std::endl;
+    std::cout << "Hasil Perkalian: " << angka1 * angka2 << std::endl;
+
+    if (angka1 != 0) {
+        std::cout << "Hasil Pembagian: " << angka1 / angka2 << std::endl;
+    } else {
+        std::cout << "Pembagian tidak dapat dilakukan" << std::endl;
+    }
+
+    return 0;
+}
+### Output Unguided 1 :
+
+##### Output 1
+![Screenshot Output Unguided 1_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/103112400080_Lapra/(Output-Unguided1-Laprak-Modul1).png)
+
+penjelasan unguided 1 
+Program sederhana dalam bahasa C++ ini meminta pengguna untuk memasukkan dua angka kemudian menghitung dan menampilkan hasil operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Jika angka pertama tidak bernilai nol, maka akan ditampilkan pesan bahwa pembagian tidak dapat dilakukan.
+
+### 2. Buatlah sebuah program yang menerimma masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
+
+source code unguided 2
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int bilanganbulat;
+    cout << "Masukkan bilanganbulat : ";
+    cin >> bilanganbulat;
+
+    if (bilanganbulat < 0 || bilanganbulat > 100) {
+        cout << "Angka di luar bilangan bulat (0-100)." << endl;
+        return 0;
+    }
+    string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", 
+                        "enam", "tujuh", "delapan", "sembilan"};
+    string belasan[] = {"sepuluh", "sebelas", "dua belas", "tiga belas", 
+                        "empat belas", "lima belas", "enam belas", 
+                        "tujuh belas", "delapan belas", "sembilan belas"};
+    string puluhan[] = {"", "", "dua puluh", "tiga puluh", "empat puluh", 
+                        "lima puluh", "enam puluh", "tujuh puluh", 
+                        "delapan puluh", "sembilan puluh"};
+
+     if (bilanganbulat == 0) {
+        cout << "nol" << endl;
+    } else if (bilanganbulat < 10) {
+        cout << satuan[bilanganbulat] << endl;
+    } else if (bilanganbulat < 20) {
+        cout << belasan[bilanganbulat- 10] << endl;
+    } else if (bilanganbulat < 100) {
+        int puluh = bilanganbulat/ 10;
+        int sisa = bilanganbulat % 10;
+        if (sisa == 0) {
+            cout << puluhan[puluh] << endl;
+        } else {
+            cout << puluhan[puluh] << " " << satuan[sisa] << endl;
+        }
+    } else if (bilanganbulat == 100) {
+        cout << "seratus" << endl;
+    }
+
+    return 0;
+}
+### Output Unguided 2 :
+
+##### Output 2
+![Screenshot Output Unguided 2_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/103112400080_Lapra/(Output-Unguided2-Laprak-Modul1).png)
+
+penjelasan unguided 2
+Program tersebut adalah program C++ yang berfungsi untuk mengubah bilangan bulat dari 0 hingga 100 menjadi tulisan dalam bahasa Indonesia. Program meminta pengguna untuk memasukkan sebuah bilangan bulat, kemudian memeriksa apakah bilangan tersebut berada di luar rentang 0–100; jika benar, program segera menampilkan pesan bahwa angka tersebut di luar rentang dan berhenti. Program ini memanfaatkan tiga array string yang terdiri dari satuan untuk angka 1–9, belasan untuk angka 10–19, dan puluhan untuk angka 20–90 yang merupakan kelipatan sepuluh. Program selanjutnya memanfaatkan struktur percabangan if-else untuk menentukan cara membaca angka: jika angka 0 maka ditampilkan “nol”, jika kurang dari 10 maka diambil dari array satuan, jika antara 10–19 maka diambil dari array belasan, jika antara 20–99 maka angka dibagi menjadi puluhan dan satuan lalu digabungkan sesuai dengan array puluhan dan satuan, sedangkan jika angka sama dengan 100 maka ditampilkan “seratus”. Program ini dapat mengubah input angka 0–100 menjadi teks yang sesuai dalam bahasa Indonesia
+
+
+### 3.Buatlah program yang dapat memberikan input dan output sbb
+
+source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int bilanganbulat;
+    cout << "inputan: ";
+    cin >> bilanganbulat;
+
+    for (int i = 0; i <= bilanganbulat; i++) { 
+    
+        for (int j = 0; j < i; j++) {
+            cout << "  ";
+        }
+        int input = bilanganbulat - i;
+        for (int k = input; k >= 1; k--) {
+            cout << k << " ";
+        }
+        cout << "* ";
+        for (int k = 1; k <= input; k++) {
+            cout << k << " ";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+
+### Output Unguided 3 :
+
+##### Output 1
+![Screenshot Output Unguided 3_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/103112400080_Lapra/(Output-Unguided3-Laprak-Modul1).png)
+
+penjelasan unguided 3
+Program di atas adalah program C++ yang digunakan untuk menampilkan pola angka simetris berbentuk segitiga terbalik dengan bintang (*) di tengahnya. Program dimulai dengan meminta pengguna untuk memasukkan satu bilangan bulat, kemudian menggunakan perulangan bersarang (for) untuk menampilkan pola. Perulangan luar (for (int i = 0; i <= bilanganbulat; i++)) mengatur seberapa banyak baris yang akan ditampilkan. Pada setiap baris, program terlebih dahulu mencetak dua spasi berdasarkan nilai i sehingga pola berpindah ke kanan. Selanjutnya, program menghitung input = bilanganbulat - i yang menentukan jumlah angka yang dicetak di sebelah kiri bintang, yaitu dari input yang berkurang hingga 1. Setelah itu, program menampilkan simbol * di tengah, kemudian menampilkan angka secara berturut-turut dari 1 hingga input untuk sisi kanan bintang. Hasil akhirnya, program menampilkan pola angka yang semakin kecil dari atas ke bawah dengan bentuk simetris dan bintang terletak di tengah setiap baris
+
+## Kesimpulan
+Dalam C++, perulangan dan struct adalah konsep dasar yang membantu programmer membuat program lebih efisien, terorganisir, dan mudah dikelola. Perulangan menyederhanakan eksekusi berulang, sedangkan struct menyatukan berbagai data menjadi satu kesatuan yang dapat digunakan.
+
+## Referensi
+[1]Arsyad, A. 1997. Media Pembelajaran. Jakarta: RajaGrafindo.
+Heriyanto, Abdul Kadir. 2006. Algoritma Pemrograman Menggunakan C++. Yogyakarta: Andi.
+Raharjo, Budi. 2006. Pemrograman C++. Bandung: Informatika.
+(https://elektro.um.ac.id/wp-content/uploads/2016/04/Dasar-Pemrograman-Modul-3-Operasi-Kondisi.pdf) 
+
+<br>[2] [Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.](https://elektro.um.ac.id/wp-content/uploads/2016/04/Dasar-Pemrograman-Modul-4-Perulangan.pdf)
+
+<br>[3] https://repository.bsi.ac.id/repo/files/237844/download/MODUL_C--_RevMer14--ok.pdf
+
