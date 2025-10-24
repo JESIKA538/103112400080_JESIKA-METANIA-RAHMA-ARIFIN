@@ -281,7 +281,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/103112400080_Lapra/(Output-Unguided1-Laprak-Modul1).png)
+![Screenshot Output Unguided 1_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/(Output-Unguided1-Laprak-Modul1).png)
 
 penjelasan unguided 1 
 Program sederhana dalam bahasa C++ ini meminta pengguna untuk memasukkan dua angka kemudian menghitung dan menampilkan hasil operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Jika angka pertama tidak bernilai nol, maka akan ditampilkan pesan bahwa pembagian tidak dapat dilakukan.
@@ -334,7 +334,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 2
-![Screenshot Output Unguided 2_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/103112400080_Lapra/(Output-Unguided2-Laprak-Modul1).png)
+![Screenshot Output Unguided 2_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/(Output-Unguided2-Laprak-Modul1).png)
 
 penjelasan unguided 2
 Program tersebut adalah program C++ yang berfungsi untuk mengubah bilangan bulat dari 0 hingga 100 menjadi tulisan dalam bahasa Indonesia. Program meminta pengguna untuk memasukkan sebuah bilangan bulat, kemudian memeriksa apakah bilangan tersebut berada di luar rentang 0–100; jika benar, program segera menampilkan pesan bahwa angka tersebut di luar rentang dan berhenti. Program ini memanfaatkan tiga array string yang terdiri dari satuan untuk angka 1–9, belasan untuk angka 10–19, dan puluhan untuk angka 20–90 yang merupakan kelipatan sepuluh. Program selanjutnya memanfaatkan struktur percabangan if-else untuk menentukan cara membaca angka: jika angka 0 maka ditampilkan “nol”, jika kurang dari 10 maka diambil dari array satuan, jika antara 10–19 maka diambil dari array belasan, jika antara 20–99 maka angka dibagi menjadi puluhan dan satuan lalu digabungkan sesuai dengan array puluhan dan satuan, sedangkan jika angka sama dengan 100 maka ditampilkan “seratus”. Program ini dapat mengubah input angka 0–100 menjadi teks yang sesuai dalam bahasa Indonesia
@@ -374,7 +374,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/103112400080_Lapra/(Output-Unguided3-Laprak-Modul1).png)
+![Screenshot Output Unguided 3_1](https://github.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 1/(Output-Unguided3-Laprak-Modul1).png)
 
 penjelasan unguided 3
 Program di atas adalah program C++ yang digunakan untuk menampilkan pola angka simetris berbentuk segitiga terbalik dengan bintang (*) di tengahnya. Program dimulai dengan meminta pengguna untuk memasukkan satu bilangan bulat, kemudian menggunakan perulangan bersarang (for) untuk menampilkan pola. Perulangan luar (for (int i = 0; i <= bilanganbulat; i++)) mengatur seberapa banyak baris yang akan ditampilkan. Pada setiap baris, program terlebih dahulu mencetak dua spasi berdasarkan nilai i sehingga pola berpindah ke kanan. Selanjutnya, program menghitung input = bilanganbulat - i yang menentukan jumlah angka yang dicetak di sebelah kiri bintang, yaitu dari input yang berkurang hingga 1. Setelah itu, program menampilkan simbol * di tengah, kemudian menampilkan angka secara berturut-turut dari 1 hingga input untuk sisi kanan bintang. Hasil akhirnya, program menampilkan pola angka yang semakin kecil dari atas ke bawah dengan bentuk simetris dan bintang terletak di tengah setiap baris
