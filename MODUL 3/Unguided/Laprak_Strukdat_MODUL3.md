@@ -86,7 +86,7 @@ int main() {
     mahasiswa mhs;
     inputMhs(mhs);
     cout << "Rata-rata nilai adalah :" << rata2(mhs);
-    //system("pause");
+
     return 0;
 }
 

@@ -649,7 +649,7 @@ Implementasikan fungsi append() untuk menambah node
 Implementasikan fungsi linearSearch () yang mengembalikan pointer ke node yang ditemukan
 Data dalam linked list tidak perlu terurut untuk linear search
 Tampilkan setiap langkah pencarian dan node yang sedang diperiksa
-Program utama harus membuat linked list dengan minimal 3 elemen dan melakukan pencarian
+Program utama harus membuat linked list dengan minimal 3 elemen dan melakukan pencarian.
 
 ```C++
 source code unguided 3
@@ -760,7 +760,7 @@ Program ini digunakan untuk mencari sebuah nilai (key) di dalam struktur data li
 ## Kesimpulan
 Hasil analisis dan pelaksanaan program pencarian data pada linked list dengan metode Linear Search dan Binary Search menunjukkan bahwa kedua algoritma berjalan dengan baik serta menunjukkan proses pencarian secara rinci. Dalam Linear Search, pencarian dilakukan dengan mengecek setiap node satu per satu dari awal sampai akhir hingga data ditemukan atau dianggap tidak ada. Metode ini mudah dan efisien untuk daftar terkait yang tidak terurut.
 
-Pada Binary Search, pencarian dilakukan dengan cara membagi linked list menjadi dua bagian secara berulang berdasarkan nilai tengahnya. Algoritma ini hanya dapat digunakan pada linked list yang urut, dan meskipun lebih efisien dalam teori untuk struktur array, pada linked list efisiensinya hampir sama dengan Linear Search karena tidak bisa langsung mengakses elemen tengah
+Pada Binary Search, pencarian dilakukan dengan cara membagi linked list menjadi dua bagian secara berulang berdasarkan nilai tengahnya. Algoritma ini hanya dapat digunakan pada linked list yang urut, dan meskipun lebih efisien dalam teori untuk struktur array, pada linked list efisiensinya hampir sama dengan Linear Search karena tidak bisa langsung mengakses elemen tengah.
 
 
 ## Referensi
