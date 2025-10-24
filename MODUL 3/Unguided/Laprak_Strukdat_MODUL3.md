@@ -159,7 +159,7 @@ kodepel
 pelajaran
 pelajaran )
 informatids lab
-procedure tampil_pelajaran (input pel :
+procedure tampil_pelajaran input pel :
 Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp"
 Cobalah hasil implementasi ADT pada file "main.cpp"
 
