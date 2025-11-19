@@ -547,7 +547,8 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/JESIKA528/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 8/c:\Users\ASUS\OneDrive\Gambar\Screenshot\unguided 1 MODUL 8.png)
+![Screenshot Output Unguided 1_1]![Screenshot Unguided 1 Modul 8](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%208/unguided%201/unguided%201%20MODUL%208.png)
+
 
 penjelasan unguided 1 
 Program ini adalah program yang di implementasikan ADT Queue pada file “queue.cpp” dengan menerapkan mekanisme queue Alternatif 1 (head diam, tail bergerak).
@@ -678,7 +679,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/JESIKA528/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 8/c:\Users\ASUS\OneDrive\Gambar\Screenshot\unguided 2 MODUL 8.png)
+![Screenshot Output Unguided 2_1]![Screenshot Unguided 2 Modul 8](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%208/unguided%202/unguided%202%20MODUL%208.png)
 
 penjelasan unguided 2
 Program ini adalah pengembangan program yang ada pada unguided 1 yaitu mengimplementasikan berdasarkan ADT Queue pada file “queue.cpp” dengan menerapkan mekanisme queue Alternatif 2 (head bergerak, tail bergerak).
@@ -809,7 +810,8 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/JESIKA528/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 8/c:\Users\ASUS\OneDrive\Gambar\Screenshot\unguided 3 MODUL 8.png)
+![Screenshot Output Unguided 3_1]![Screenshot Unguided 3 Modul 8](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%208/unguided%203/unguided%203%20MODUL%208.png)
+
 
 penjelasan unguided 3
 Pada program ketiga ini juga adalah pengembangan program pertama dan kedua, bedanya pada program ketiga ini program nya  implementasi ADT Queue pada file “queue.cpp” dengan menerapkan mekanisme queue Alternatif 3 (head dan tail berputar).
@@ -834,7 +836,7 @@ Seperti yang ditunjukkan oleh tiga perintah implementasi ADT Queue, setiap mekan
  Dalam mekanisme queue berputar, ketika ujung dan ujung array mencapai batasnya, mereka akan kembali ke indeks 0.
  Keuntungan: Karena tidak ada ruang terbuang, penggunaan memori paling efisien.
  Kekurangan: implementasi lebih kompleks karena memerlukan perhitungan khusus (modular arithmetic).
- 
+
 ## Referensi
 [1]Ariyus, D. (2019). Struktur Data dan Algoritma untuk Pemrograman. Jurnal Rekayasa Teknologi Informasi, 7(2), 45–52.
 <br>[2]Sari, N. L., & Pratiwi, D. (2021). Analisis Struktur Data Queue dalam Pengelolaan Data Berurutan. Jurnal Informatika dan Sistem Cerdas, 3(1), 12–20.
