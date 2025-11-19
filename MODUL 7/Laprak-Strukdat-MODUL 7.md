@@ -414,6 +414,68 @@ void balikStack(Stack &S) {
     S = temp;
 }
 
+## stack.cpp
+#include "stack.h"
+#include <iostream>
+using namespace std;
+
+void createStack(Stack &S) {
+    S.top = -1;
+}
+
+void push(Stack &S, infotype x) {
+    if (S.top < MAX - 1) {
+        S.top++;
+        S.info[S.top] = x;
+    } else {
+        cout << "Stack penuh!\n";
+    }
+}
+
+int pop(Stack &S) {
+    if (S.top >= 0) {
+        int temp = S.info[S.top];
+        S.top--;
+        return temp;
+    } else {
+        cout << "Stack kosong!\n";
+        return -1;
+    }
+}
+
+void printInfo(const Stack &S) {
+    cout << "[TOP] ";
+    for (int i = S.top; i >= 0; i--) {
+        cout << S.info[i] << " ";
+    }
+    cout << endl;
+}
+
+void balikStack(Stack &S) {
+    Stack temp;
+    createStack(temp);
+
+    while (S.top >= 0) {
+        push(temp, pop(S));
+    }
+
+    S = temp;
+}
+
+void pushAscending(Stack &S, infotype x) {
+    Stack temp;
+    createStack(temp);
+    while (S.top >= 0 && S.info[S.top] < x) {
+        push(temp, pop(S));
+    }
+    push(S, x); // masukan nilai x ke stack S
+
+    // Mengembalikan elemen dari temp
+    while (temp.top >= 0) {
+        push(S, pop(temp));
+    }
+}
+
 ## main.cpp
 #include <iostream>
 #include "stack.h"
@@ -447,7 +509,8 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/JESIKA528/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 7/output-unguided1-modul 7.png)
+![Screenshot Output Unguided 1_1][Laprak Strukdat Modul 7](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%208/Laprak-Strukdat%20MODUL%208.md)
+
 
 penjelasan unguided 1 
 Program ini adalah program yang di implementasikan berdasarkan ketentuan yang ada pada modul 7 yaitu stack, dengan mengembalikan nilai menggunakan representasi array.
@@ -577,7 +640,8 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/JESIKA528/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 7/output-unguided2-modul 7.png)
+![Screenshot Output Unguided 2_1]![Output Unguided 2 Modul 7](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%207/unguided%202/output-unguided2-modul%207.png)
+
 
 penjelasan unguided 2
 Program ini adalah pengembangan program yang ada pada unguided 1 yaitu mengimplementasikan berdasarkan ketentuan yang ada pada modul 7 yaitu stack, dengan mengembalikan nilai menggunakan representasi array, namun di tambah dengan prosedurpushAscending.
@@ -713,7 +777,8 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/JESIKA528/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/blob/main/MODUL 6/output-unguided3-modul7.png)
+![Screenshot Output Unguided 3_1]![Output Unguided 3 Modul 7](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%207/unguided%203/output-unguided3-modul7.png)
+
 
 penjelasan unguided 3
 Pada program ketiga ini juga adalah pengembangan program pertama dan kedua, bedanya pada program ketiga ini program nya mendapatkan tambahan  prosedur getInputStream. Yang nantinya, Prosedur akan terus membaca dan
