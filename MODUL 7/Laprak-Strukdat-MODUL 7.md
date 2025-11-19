@@ -509,7 +509,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1][Laprak Strukdat Modul 7](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%208/Laprak-Strukdat%20MODUL%208.md)
+![Screenshot Output Unguided 1_1]![Output Unguided 1 Modul 7](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%207/unguided%201/output-unguided1-modul%207.png)
 
 
 penjelasan unguided 1 
