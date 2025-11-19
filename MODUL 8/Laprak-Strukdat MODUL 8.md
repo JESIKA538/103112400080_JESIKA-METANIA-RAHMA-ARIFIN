@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 7 - QUEUE </h1>
+# <h1 align="center">Laporan Praktikum Modul 8 - QUEUE </h1>
 <p align="center">JESIKA METANIA RAHMA ARIFIN - 103112400080</p>
 
 ## Dasar Teori
