@@ -828,7 +828,7 @@ int main() {
 
 ##### Output 1
 Output 2
-![Screenshot Output Unguided 2]![Screenshot Unguided 2 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%202/unguided%202%20MODUL%2010.png)
+![Screenshot Unguided 2 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%202/unguided%202%20MODUL%20%2010.png)
 
 
 penjelasan unguided 2
@@ -1023,9 +1023,7 @@ int main() {
 
 ##### Output 1
 Output 3
-![Screenshot Output Unguided 3]![Screenshot Unguided 3 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%203/unguided%203%20MODUL%2010.png)
-
-
+![Screenshot Unguided 3 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%203/unguided%203%20MODUL%2010.png)
 
 penjelasan unguided 3
 Program ini menunjukkan sebuah Binary Search Tree (BST) dengan struktur hierarki yang diminta untuk dicetak menggunakan tiga metode traversal yaitu pre-order, in-order, dan post-order.
