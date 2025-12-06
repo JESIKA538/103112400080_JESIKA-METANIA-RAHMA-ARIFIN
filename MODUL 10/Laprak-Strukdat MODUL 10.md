@@ -827,7 +827,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-Output 2
+
 ![Screenshot Unguided 2 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%202/unguided%202%20MODUL%20%2010.png)
 
 
