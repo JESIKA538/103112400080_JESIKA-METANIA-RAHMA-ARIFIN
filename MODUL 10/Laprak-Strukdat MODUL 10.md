@@ -686,7 +686,9 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]![Screenshot Unguided 1 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/MODUL 10/unguided/unguided 1/unguided 1 MODUL 10.png)
+Output 1
+![Screenshot Output Unguided 1_1]![Screenshot Unguided 1 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%201/unguided%201%20MODUL%2010.png)
+
 
 penjelasan unguided 1 
 Binary Search Tree (BST) adalah struktur data pohon biner dimana setiap node memiliki nilai (info) dan dua pointer (left dan right) untuk anak kiri dan kanan. File header "bstree.h" mendefinisikan tipe data dan fungsi-fungsi dasar seperti alokasi untuk membuat node baru, insertNode untuk memasukkan nilai ke pohon, findNode untuk mencari nilai, dan printInorder untuk mencetak pohon secara berurutan.
@@ -825,7 +827,9 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1]![Screenshot Unguided 2 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/MODUL 10/unguided/unguided 2/unguided 2 MODUL  10.png)
+Output 2
+![Screenshot Output Unguided 2]![Screenshot Unguided 2 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%202/unguided%202%20MODUL%2010.png)
+
 
 penjelasan unguided 2
 Program ini meminta untuk membuat tiga fungsi tambahan pada Binary Search Tree yaitu hitungJumlahNode, hitungTotalInfo, dan hitungKedalaman. Fungsi hitungJumlahNode bertugas menghitung berapa banyak node yang ada dalam BST secara keseluruhan. Fungsi hitungTotalInfo menghitung jumlah total dari semua nilai info yang tersimpan di setiap node dalam BST. Sedangkan fungsi hitungKedalaman menghitung kedalaman maksimal dari pohon, yaitu jarak terpanjang dari root hingga ke leaf node paling bawah.
@@ -1018,7 +1022,9 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1]![Screenshot Unguided 3 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/MODUL 10/unguided/unguided 3/unguided 3 MODUL 10.png)
+Output 3
+![Screenshot Output Unguided 3]![Screenshot Unguided 3 Modul 10](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%203/unguided%203%20MODUL%2010.png)
+
 
 
 penjelasan unguided 3
