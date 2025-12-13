@@ -755,14 +755,11 @@ int main() {
 
 ##### Output 1
 Output 1
-![Output Unguided 1 Modul 13](MODUL%2013/unguided/unguided%201/output_unguided1_modul13.png)
+![Output Unguided 1 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%201/output%20unguided1%20MODUL%2013.png)
 
-
-### Output 2
-
-![Output Unguided 1.1 Modul 13](MODUL%2013/unguided/unguided%201/output%20unguided1.1%20MODUL%2013.png)
-
-
+##### Output 2
+Output 2
+![Output Unguided 1.1 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%201/output%20unguided1.1%20MODUL%2013.png)
 
 penjelasan unguided 1 
 Program ini mengimplementasikan struktur data multi-linked list bertipe induk–anak, di mana parent merepresentasikan golongan hewan dan child merepresentasikan data hewan yang termasuk dalam golongan tersebut. Setiap node parent disusun dalam doubly linked list dan memiliki satu linked list child sendiri, sehingga satu golongan dapat menampung banyak hewan tanpa duplikasi data. File MultiLL.h berisi definisi struktur dan deklarasi fungsi, MultiLL.cpp mengimplementasikan operasi dasar seperti inisialisasi, alokasi, penyisipan, penghapusan, dan penelusuran data, sedangkan main.cpp digunakan untuk menguji program dengan menambahkan beberapa golongan dan hewan, lalu menampilkan hubungan parent–child menggunakan fungsi printMLLStructure.
@@ -1183,10 +1180,7 @@ int main() {
 
 ##### Output 
 
-![Output Unguided 2 Modul 13](MODUL%2013/unguided/unguided%202/output_unguided2_modul13.png)
-
-
-
+![Output Unguided 2 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%202/output%20unguided2%20MODUL%2013.png)
 
 penjelasan unguided 2
 Program ini merupakan implementasi multi-linked list induk–anak menggunakan doubly linked list, di mana node parent menyimpan data golongan hewan dan setiap parent memiliki list child yang berisi data hewan dalam golongan tersebut. Program menyediakan operasi lengkap seperti pembuatan list, alokasi dan dealokasi node, penambahan dan penghapusan node parent maupun child, serta penelusuran struktur data. Selain menampilkan seluruh isi multi-linked list melalui fungsi printMLLStructure, kode ini juga menambahkan fitur pencarian searchHewanByEkor yang menelusuri seluruh node child pada setiap parent untuk menemukan hewan berdasarkan atribut ekor (true/false) dan menampilkan informasi lengkap baik dari sisi child maupun parent, sehingga memperlihatkan relasi hierarkis antar data secara jelas.
@@ -1507,7 +1501,8 @@ int main() {
 
 ##### Output 
 Output 3
-![Output Unguided 3 Modul 13](MODUL%2013/unguided/unguided%203/output_unguided3_modul13.png)
+![Output Unguided 3 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%203/output%20unguided3%20MODUL%2013.png)
+
 
 
 
