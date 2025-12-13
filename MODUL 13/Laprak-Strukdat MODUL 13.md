@@ -755,10 +755,13 @@ int main() {
 
 ##### Output 1
 Output 1
-[Output Unguided 1 Modul 13](MODUL%2013/unguided/unguided%201/output%20unguided1%20MODUL%2013.png)
+![Output Unguided 1 Modul 13](MODUL%2013/unguided/unguided%201/output_unguided1_modul13.png)
+
 
 ### Output 2
-[Output Unguided 1.1 Modul 13](MODUL%2013/unguided/unguided%201/output%20unguided1.1%20MODUL%2013.png)
+
+![Output Unguided 1.1 Modul 13](MODUL%2013/unguided/unguided%201/output%20unguided1.1%20MODUL%2013.png)
+
 
 
 penjelasan unguided 1 
@@ -1180,7 +1183,8 @@ int main() {
 
 ##### Output 
 
-![Output Unguided 2 Modul 13](MODUL%2013/unguided/unguided%202/output%20unguided2%20MODUL%2013.png)
+![Output Unguided 2 Modul 13](MODUL%2013/unguided/unguided%202/output_unguided2_modul13.png)
+
 
 
 
@@ -1503,7 +1507,8 @@ int main() {
 
 ##### Output 
 Output 3
-![Output Unguided 3 Modul 13](MODUL%2013/unguided/unguided%203/output%20unguided3%20MODUL%2013.png)
+![Output Unguided 3 Modul 13](MODUL%2013/unguided/unguided%203/output_unguided3_modul13.png)
+
 
 
 penjelasan unguided 3
