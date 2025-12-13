@@ -755,7 +755,10 @@ int main() {
 
 ##### Output 1
 Output 1
-![Screenshot Output Unguided 1_1]![Screenshot Unguided 1 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%201/unguided%201%20MODUL%2010.png)
+[Output Unguided 1 Modul 13](MODUL%2013/unguided/unguided%201/output%20unguided1%20MODUL%2013.png)
+
+### Output 2
+[Output Unguided 1.1 Modul 13](MODUL%2013/unguided/unguided%201/output%20unguided1.1%20MODUL%2013.png)
 
 
 penjelasan unguided 1 
@@ -1177,7 +1180,8 @@ int main() {
 
 ##### Output 
 
-![Screenshot Unguided 2 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%202/unguided%202%20MODUL%20%2010.png)
+![Output Unguided 2 Modul 13](MODUL%2013/unguided/unguided%202/output%20unguided2%20MODUL%2013.png)
+
 
 
 penjelasan unguided 2
@@ -1499,7 +1503,8 @@ int main() {
 
 ##### Output 
 Output 3
-![Screenshot Unguided 3 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2010/unguided/unguided%203/unguided%203%20MODUL%2010.png)
+![Output Unguided 3 Modul 13](MODUL%2013/unguided/unguided%203/output%20unguided3%20MODUL%2013.png)
+
 
 penjelasan unguided 3
 Program ini merupakan implementasi multi-linked list induk–anak yang memodelkan hubungan antara golongan hewan (parent) dan hewan (child), di mana parent disusun dalam doubly linked list dan setiap parent memiliki singly linked list child. Struktur MultiLL menyimpan pointer ke parent pertama dan terakhir, sedangkan setiap Golongan menyimpan data golongan serta pointer ke daftar hewan (firstChild). Program menyediakan operasi inisialisasi, penambahan parent dan child, pencarian node, penghapusan child, serta penghapusan parent beserta seluruh child-nya secara aman untuk mencegah kebocoran memori. Fungsi printMLLStructure digunakan untuk menampilkan seluruh struktur hierarkis, sementara main.cpp berfungsi sebagai pengujian dengan membuat data awal, melakukan operasi delete pada salah satu parent, dan menampilkan hasil akhir struktur multi-linked list.
