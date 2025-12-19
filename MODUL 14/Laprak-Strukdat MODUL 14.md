@@ -311,8 +311,7 @@ int main() {
 
 ##### Output 1
 Output 1
-![Output Unguided 1 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%201/output%20unguided1%20MODUL%2013.png)
-
+![Output Unguided 1 Modul 14](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2014/unguided/unguided%201/Output%20Unguided%201%20MODUL%2014.png)
 
 penjelasan unguided 1 
 Program ini mengimplementasikan ADT Graph tidak berarah menggunakan representasi adjacency list. Setiap node menyimpan informasi berupa karakter, penanda kunjungan (visited), daftar edge yang terhubung, serta pointer ke node berikutnya. Edge digunakan untuk merepresentasikan hubungan antar node dan disimpan dalam bentuk linked list pada masing-masing node.
@@ -482,7 +481,7 @@ int main() {
 
 ##### Output 
 
-![Output Unguided 2 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%202/output%20unguided2%20MODUL%2013.png)
+![Output Unguided 2 Modul 14](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2014/unguided/unguided%202/Output%20unguided%202%20MODUL%2014.png)
 
 penjelasan unguided 2
 Program ini mengimplementasikan ADT Graph tidak berarah menggunakan adjacency list dan dilengkapi dengan algoritma Depth First Search (DFS). Setiap node memiliki penanda visited untuk menandai node yang sudah dikunjungi agar tidak terjadi pengulangan. DFS bekerja dengan mengunjungi node awal, kemudian menelusuri node-node tetangga secara rekursif hingga tidak ada lagi node yang bisa dikunjungi. Setelah proses DFS selesai, nilai visited di-reset agar graph dapat digunakan kembali untuk penelusuran selanjutnya.
@@ -660,7 +659,7 @@ int main() {
 
 ##### Output 
 Output 3
-![Output Unguided 3 Modul 13](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2013/unguided/unguided%203/output%20unguided3%20MODUL%2013.png)
+![Output Unguided 3 Modul 14](https://raw.githubusercontent.com/JESIKA538/103112400080_JESIKA-METANIA-RAHMA-ARIFIN/main/MODUL%2014/unguided/unguided%203/Output%20unguided%203%20MODUL%2014.png)
 
 penjelasan unguided 3
 Program ini merupakan implementasi multi-linked list induk–anak yang memodelkan hubungan antara golongan hewan (parent) dan hewan (child), di mana parent disusun dalam doubly linked list dan setiap parent memiliki singly linked list child. Struktur MultiLL menyimpan pointer ke parent pertama dan terakhir, sedangkan setiap Golongan menyimpan data golongan serta pointer ke daftar hewan (firstChild). Program menyediakan operasi inisialisasi, penambahan parent dan child, pencarian node, penghapusan child, serta penghapusan parent beserta seluruh child-nya secara aman untuk mencegah kebocoran memori. Fungsi printMLLStructure digunakan untuk menampilkan seluruh struktur hierarkis, sementara main.cpp berfungsi sebagai pengujian dengan membuat data awal, melakukan operasi delete pada salah satu parent, dan menampilkan hasil akhir struktur multi-linked list.
